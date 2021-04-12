@@ -49,6 +49,7 @@ public class Main {
             stm.executeUpdate("INSERT INTO students VALUES("+id+",'"+name+"')");
         } catch (SQLException throwables) {
             throwables.printStackTrace();
+
         }
     }
     static void printingTableValues(Statement stm) throws SQLException {
